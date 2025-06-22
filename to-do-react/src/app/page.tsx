@@ -5,10 +5,10 @@ export default function Home() {
     <div className="bg-black min-h-screen max-h-screen w-screen max-w-screen overflow-x-hidden overflow-y-hidden relative">
       <StarField />
       <div className="relative z-10">
-        <div className="fixed p-5 text-white flex justify-start font-bold text-shadow-[0_0_20px_white] tracking-widest text-2xl w-full left-0 top-0">
+        <div className="fixed p-5 text-white flex justify-start font-bold text-shadow-[0_0_20px_white] tracking-widest text-2xl w-full left-0 top-0 z-20">
           <h1>TO - DO - REACT</h1>
         </div>
-        <div className="flex top-0 p-7 font-bold justify-end w-full">
+        <div className="flex top-0 p-7 font-bold justify-end w-full z-20">
           <div>
             <nav className="space-x-5">
               <a
@@ -28,7 +28,7 @@ export default function Home() {
             </nav>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center -translate-y-16">
+        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center -translate-y-16 z-10">
           <h1 className="text-5xl font-bold tracking-wider text-white text-glow mb-5">
             Welcome
           </h1>
@@ -44,7 +44,7 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      <div className="bottom-0 fixed mb-10 text-center items-center w-full space-x-4 flex justify-center opacity-60  ">
+      <div className="bottom-0 fixed mb-10 text-center items-center w-full space-x-4 flex justify-center opacity-60 z-20">
         <a
           href="https://github.com/therealgone"
           target="_blank"
