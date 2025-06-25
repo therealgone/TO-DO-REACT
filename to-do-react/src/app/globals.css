@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
-.text-glow{
+
+
+
+text-glow{
     @apply text-shadow-[0_0_20px_white]
 }
 
@@ -9,5 +12,3 @@
 
 
 }
-
-

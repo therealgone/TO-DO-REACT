@@ -5,30 +5,26 @@ export default function Home() {
     <div className="bg-black min-h-screen max-h-screen w-screen max-w-screen overflow-x-hidden overflow-y-hidden relative">
       <StarField />
       <div className="relative z-10">
-        <div className="fixed p-5 text-white flex justify-start font-bold text-shadow-[0_0_20px_white] tracking-widest text-2xl w-full left-0 top-0 z-20">
+        <div className="fixed p-5 text-white flex justify-start font-bold text-shadow-[0_0_20px_white] tracking-widest text-2xl ">
           <h1>TO - DO - REACT</h1>
         </div>
-        <div className="flex top-0 p-7 font-bold justify-end w-full z-20">
+        <div className="fixed top-0 right-0 p-7 font-bold  justify-end w-full z-30">
           <div>
             <nav className="space-x-5">
               <a
-                href="#"
-                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] transition-all duration-300 ease-in-out 
-                 hover:bg-white/10 hover:text-white hover:backdrop-blur-md hover:border hover:border-white/40"
+                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] hover:bg-black hover:text-white cursor-pointer"
               >
                 Login
               </a>
               <a
-                href="#"
-                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] transition-all duration-300 ease-in-out 
-                 hover:bg-white/10 hover:text-white hover:backdrop-blur-md hover:border hover:border-white/40"
+                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] hover:bg-black hover:text-white cursor-pointer"
               >
                 Sign-In
               </a>
             </nav>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center -translate-y-16 z-10">
+        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center -translate-y-16 z-10  ">
           <h1 className="text-5xl font-bold tracking-wider text-white text-glow mb-5">
             Welcome
           </h1>
@@ -49,7 +45,7 @@ export default function Home() {
           href="https://github.com/therealgone"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition hover:scale-110 hover:drop-shadow-[0_0_80px_white] hover:border hover:rounded-full hover:bg-white"
+          className="transition hover:scale-110 hover:drop-shadow-[0_0_80px_white] hover:border-white hover:rounded-full hover:bg-white"
         >
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
