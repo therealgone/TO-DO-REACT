@@ -77,9 +77,9 @@ export default function Todo() {
               > Add
               </button>
 
-              <ul className="text-white flex-col flex">
+              <ul className="text-white flex-col flex text-center items-center max-h-screen">
                 {todo.map((todo, index) => (
-                  <li className="text-white flex-col flex justify-center text-center"
+                  <li className="text-white absolute text-center"
                     key={index}>
                     {todo}
                     <button className="text-black bg-white p-2 rounded-3xl shadow-[0_0_10px_white] transition-all duration-300 ease-in-out 
