@@ -8,21 +8,23 @@ export default function Home() {
         <div className="fixed p-5 text-white flex justify-start font-bold text-shadow-[0_0_20px_white] tracking-widest text-2xl ">
           <h1>TO - DO - REACT</h1>
         </div>
-        <div className="fixed top-0 right-0 p-7 font-bold  justify-end w-full z-30">
-          <div>
-            <nav className="space-x-5">
+        <div className="absolute p-7 font-bold w-full z-30">
+          
+            <nav className="space-x-5 right-5 absolute  ">
               <a
-                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] hover:bg-black hover:text-white cursor-pointer"
+                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] transition-all duration-300 ease-in-out 
+                 hover:bg-white/10 hover:text-white hover:backdrop-blur-md hover:border hover:border-white/40"
               >
                 Login
               </a>
               <a
-                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] hover:bg-black hover:text-white cursor-pointer"
+                className="text-black bg-white p-3 rounded-3xl shadow-[0_0_10px_white] transition-all duration-300 ease-in-out 
+                 hover:bg-white/10 hover:text-white hover:backdrop-blur-md hover:border hover:border-white/40"
               >
                 Sign-In
               </a>
             </nav>
-          </div>
+          
         </div>
         <div className="flex flex-col items-center justify-center min-h-screen text-white text-center -translate-y-16 z-10  ">
           <h1 className="text-5xl font-bold tracking-wider text-white text-glow mb-5">
